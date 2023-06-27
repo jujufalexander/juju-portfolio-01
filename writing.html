@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Writer</title>
+    <link rel="stylesheet" href="style.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-jzIl5vGPy5KpYYa1/t7q9DZWmPn7aA3l6nhZKq3OY6Pnz8WzR0gAVyU6QDWU87vJNLG1aZEsKdZAm1YfzC8o/A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://kit.fontawesome.com/cef6b4f400.js" crossorigin="anonymous"></script>
+    <style>
+      @media screen and (max-width: 768px) {
+        nav {
+          text-align: center; /* Center the menu */
+          padding-right: 50px;
+        }
+      }
+      a {
+        transition: color 0.3s ease;
+      }
+
+      a:hover {
+        color: #00c4cc;
+      }
+      button {
+        transition: background-color 0.3s ease;
+      }
+      button:hover {
+        background-color: #009bae;
+      }
+      @keyframes gradient {
+        0% {background-position: 0% 50%;}
+        50% {background-position: 100% 50%;}
+        100% {background-position: 0% 50%;}
+      }
+      .gradient-button {
+        display: inline-block;
+        padding: 8px 16px; /* smaller size */
+        color: white; 
+        text-decoration: none; 
+        border-radius: 5px;
+        background: linear-gradient(-45deg, #00c4cc, #8e43f0, #00c4cc, #8e43f0);
+        background-size: 400% 400%;
+        animation: gradient 5s ease infinite;
+      }
+      @keyframes textGradient {
+        0% { color: #00c4cc; }
+        50% { color: #80e5f2; }
+        100% { color: #00c4cc; }
+      }
+      .animated-title {
+        animation: textGradient 2s infinite linear alternate;
+        font-size: 1.75rem; 
+        font-weight: bold; 
+        margin-bottom: 20px; 
+        text-align: center;
+      }
+      .gradient-button {
+      background: linear-gradient(-45deg, #00c4cc, #8e43f0, #00c4cc, #8e43f0);
+      background-size: 400% 400%;
+      animation: gradient 5s ease infinite;
+      }
+      @keyframes gradient {
+      0% { background-position: 0% 50%; }
+      50% { background-position: 100% 50%; }
+      100% { background-position: 0% 50%; }
+      }
+    </style>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;700&display=swap');
+  body {
+    font-family: 'Raleway', sans-serif;
+  }
+</style>
+  </head>
+
+  <body style="margin: 0; padding: 0; box-sizing: border-box; background-color: #201c1c; color: white; font-family: 'Raleway', sans-serif;">
+    <!-- Header -->
+    <header style="display: flex;">
+      <div class="title-wrapper"></div>
+      <nav>
+        <ul style="padding-right: 10px;">
+          <li><a href="index.html">Coder</a></li>
+          <li><a href="writing.html">Writer</a></li>
+          <li><a href="projects.html">Projects</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+    <div style="padding: 10px;"></div>
+    <!-- Competitive Writing Section -->
+    <div class="container">
+      <section class="competitive-writing" style="background-color: black; padding: 20px; border-radius: 10px;">
+        <div style="background-color: black; border-radius: 40px; border: 1px solid transparent; background-image: linear-gradient(to right, #00c4cc, #8e43f0); padding: 20px;">
+          <div style="background-color: black; border-radius: 10px; padding: 20px;">
+            <h1 style="text-align: center; font-size: 34px; margin-bottom: 20px; font-family: Raleway-Bold; color: #00c4cc;">Screenwriter</h1>
+
+            <!-- Gradient Line -->
+      <div class="gradient-line" style="width: 60%;"></div>
+
+            <p style="text-align: center; font-size: 19px; margin-bottom: 20px; font-family: 'Raleway Light', sans-serif; max-width: 530px; margin: 0 auto; color: white;">
+              Check out my latest competitive script,<em>The Azura Project</em>. Vladamir Knight undergoes a transformative treatment by the powerful Azura Foundation. As his inner animal instincts intensify, Vlad must balance family life with a missing person's case, delving into a web of secrets and unexpected allies. Prepare for a thrilling journey of self-discovery and intrigue.
+            </p>
+            <div style="padding: 10px;"></div>
+            <div style="text-align: center;">
+              <button class="gradient-button" style="font-size: 1.05rem; padding: 10px 20px; border: none; border-radius: 5px; color: white; cursor: pointer;">
+                <a href="THE AZURA PROJECT - JFA.pdf" style="color: white; text-decoration: none;">EXPLORE THE SCRIPT</a>
+              </button>              
+              <div style="padding: 10px;"></div>
+              <p style="text-align: center; font-size: 1.2rem; line-height: 1.5;">This script is protected under copyright law. For more information, visit <a href="https://www.copyright.gov/" style="color: #00c4cc;">copyright.gov</a>.</p>
+            </div>
+          </div>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <!-- Substack Section -->
+    <div class="container">
+      <section class="substack" style="background-color: black; padding: 20px; border-radius: 10px;">
+        <div style="background-color: black; border-radius: 40px; border: 1px solid transparent; background-image: linear-gradient(to right, #00c4cc, #8e43f0); padding: 20px;">
+          <div style="background-color: black; border-radius: 10px; padding: 20px;">
+            <h1 style="text-align: center; font-size: 34px; margin-bottom: 20px; font-family: Raleway-Bold; color: #00c4cc;">Substack</h1>
+            
+            <!-- Gradient Line -->
+      <div class="gradient-line" style="width: 60%;"></div>
+
+            <p style="text-align: center; font-size: 19px; margin-bottom: 20px; font-family: 'Raleway Light', sans-serif; max-width: 530px; margin: 0 auto; color: white;">
+              My journey as a writer began years ago, and it was through competing in film festivals that I found my voice.
+            </p>
+            <br>
+            <p style="text-align: center; font-size: 19px; margin-bottom: 20px; font-family: 'Raleway Light', sans-serif; max-width: 530px; margin: 0 auto; color: white;">
+              Recently, I launched a Substack as my newest outlet for creative writing. This platform allows me to delve into topics close to my heart. Each post is a reflection of my growth, learning, and understanding of the world.
+            </p>
+            <br>
+            <p style="text-align: center; font-size: 19px; margin-bottom: 20px; font-family: 'Raleway Light', sans-serif; max-width: 530px; margin: 0 auto; color: white;">
+              Ready to join me on this journey? Subscribe to receive updates directly in your inbox. I look forward to sharing this space of exploration and growth with you.
+            </p>
+            <div style="padding: 10px;"></div>
+            <div style="text-align: center;">
+              <button class="gradient-button" style="font-size: 1.05rem; padding: 10px 20px; border: none; border-radius: 5px; color: white; cursor: pointer;">
+                <a href="https://substack.com/@julianfalexander?utm_source=user-menu" style="color: white; text-decoration: none;">SUBSCRIBE</a>
+              </button>
+              <div style="padding: 10px;"></div>
+            </div>
+          </div>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <!-- Technical Writing Section -->
+    <div class="container">
+      <section class="substack" style="background-color: black; padding: 20px; border-radius: 10px;">
+        <div style="background-color: black; border-radius: 40px; border: 1px solid transparent; background-image: linear-gradient(to right, #00c4cc, #8e43f0); padding: 20px;">
+          <div style="background-color: black; border-radius: 10px; padding: 20px;">
+            <h1 style="text-align: center; font-size: 34px; margin-bottom: 20px; font-family: Raleway-Bold; color: #00c4cc;">Technical Writing Services</h1>
+            
+            <!-- Gradient Line -->
+            <div class="gradient-line" style="width: 60%;"></div>
+
+            <ul style="text-align: left; font-size: 19px; margin-bottom: 20px; font-family: 'Raleway Light', sans-serif; max-width: 530px; margin: 0 auto; color: white; list-style-type: disc; padding-left: 20px;">
+              <li><span style="color: #00c4cc;">Technical Marketing Content</span>: Creating comprehensive white papers, case studies, and blog posts that elucidate complex technical products or services for potential customers.</li>
+              <br>
+              <li><span style="color: #00c4cc;">Product Descriptions</span>: Writing detailed, compelling product descriptions aimed at both informing potential customers and driving sales.</li>
+              <br>
+              <li><span style="color: #00c4cc;">Business Correspondence</span>: Drafting technical business letters, memos, and emails, ensuring clear and effective communication of intricate technical information.</li>
+              <br>
+              <li><span style="color: #00c4cc;">Software Documentation</span>: Detailing the internal workings of software programs for your development team and providing user-friendly guides, making complex information accessible and understandable.</li>
+            </ul>
+            <style>
+              ul li::marker {
+                color: #00c4cc;
+              }
+            </style>
+            <div style="padding: 10px;"></div>
+            <div style="text-align: center;">
+              <button class="gradient-button" style="font-size: 1.05rem; padding: 10px 20px; border: none; border-radius: 5px; color: white; cursor: pointer;">
+                <a href="https://aditpublishing.com/" style="color: white; text-decoration: none;">LEARN MORE</a>
+              </button>
+              <div style="padding: 10px;"></div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+  
+  <div style="padding: 20px;"></div>
+  
+        <!-- Footer -->
+        <footer>
+          <div class="social-icons">
+            <a href="https://twitter.com/jujufalexander"><i class="fab fa-twitter"></i><span>Twitter</span></a>
+            <a href="https://www.linkedin.com/in/julian-alexander-421b98279/"><i class="fab fa-linkedin"></i><span>LinkedIn</span></a>
+            <a href="https://github.com/jujufalexander"><i class="fab fa-github"></i><span>GitHub</span></a>
+          </div>
+          <div class="footer-info">
+            <p>&copy; 2023 Julian Alexander. All rights reserved.</p>
+          </div>
+        </footer>
+        
+<script src="script.js"></script>
+        </body>
+        </html>

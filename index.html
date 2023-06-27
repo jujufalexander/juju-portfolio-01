@@ -1,0 +1,372 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <title>Coder</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-jzIl5vGPy5KpYYa1/t7q9DZWmPn7aA3l6nhZKq3OY6Pnz8WzR0gAVyU6QDWU87vJNLG1aZEsKdZAm1YfzC8o/A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://kit.fontawesome.com/cef6b4f400.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@alch/alchemy-web3@2.2.1/build/dist/web3.min.js"></script>
+  </head>
+  <body>
+    <header style="display: flex;">
+      <div class="title-wrapper"></div>
+      <nav>
+        <ul style="padding-right: 10px;">
+          <li><a href="index.html">Coder</a></li>
+          <li><a href="writing.html">Writer</a></li>
+          <li><a href="projects.html">Projects</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+    <style>
+      @media screen and (max-width: 768px) {
+        nav {
+          text-align: center; /* Center the menu */
+          padding-right: 50px;
+        }
+      }
+      @keyframes pulse {
+        0% {
+          transform: translateX(-50%) scaleY(1);
+        }
+        50% {
+          transform: translateX(-50%) scaleY(1.5);
+        }
+        100% {
+          transform: translateX(-50%) scaleY(1);
+        }
+      }
+      a {
+        transition: color 0.3s ease;
+      }
+      a:hover {
+        color: #00c4cc;
+      }
+    </style>
+  
+    <h1 style="font-family: 'Raleway Light', sans-serif; margin-top: 34px; margin-bottom: 20px; text-align: center; position: relative; z-index: 1;">
+      <span style="background-color: #000; color: #fff; padding: 0 20px; border: 2px solid #00c4cc; display: inline-block; position: relative; z-index: 1; border-radius: 20px;">Julian Alexander</span>
+      <span style="background-color: #00c4cc; height: 100%; width: 10px; position: absolute; top: 0; left: 50%; transform: translateX(-50%); animation: pulse 2s linear infinite; border-radius: 10px;"></span>
+    </h1>
+      <style>
+        @keyframes pulse {
+          0% {
+            transform: translateX(-50%) scaleY(1);
+          }
+          50% {
+            transform: translateX(-50%) scaleY(1.5);
+          }
+          100% {
+            transform: translateX(-50%) scaleY(1);
+          }
+        }
+      </style>
+
+    <div style="width: 100%; height: auto; position: relative;">
+      <img src="images/banner-image1.png" alt="banner-image1" style="width: 100%; height: auto; object-fit: cover;">
+    </div>
+       <div class="container">
+        <section class="about">
+          <div class="about-content">
+
+             <!-- Gradient Line -->
+       <div class="gradient-line"></div>
+       
+            <h1 class="about-title" style="text-align: center; font-size: 48px; color: #8e43f0; font-family: Raleway-Bold;">It's Me</h1>
+            <div class="title-line"></div>
+            <div class="about-description">
+              <div style="padding: 10px;"></div>
+              <div class="about-paragraph" style="text-align: center;">
+                <p style="max-width: 90%; margin: 0 auto;">My name's Julian. I'm a coder, writer, and jiu-jitsu practitioner living in Round Rock, Texas.</p>
+              </div>
+              <br>
+              <div class="about-paragraph" style="text-align: center;">
+                <p style="max-width: 90%; margin: 0 auto;">Since beginning my journey as a developer in 2020, I've designed visually impactful websites, built customized smart contracts, launched my own small business, and have connected with some amazingly talented creators in the Web3 community.</p>
+              </div>
+              <br>
+              <div class="about-paragraph" style="text-align: center;">
+                <p style="max-width: 90%; margin: 0 auto;">I have an interest in the entire full-stack spectrum, a passion for blockchain tech, and love working on ambitious projects with positive people.</p>
+              </div>
+            </div>
+          </div>
+
+          <div style="padding: 10px;"></div>
+     
+          <div class="about-image" style="display: flex; justify-content: center; margin-top: -100px;">
+            <img src="images/profile-pic2.png" alt="profile image" style="border-radius: 50%; transform: scale(0.8);">
+          </div>
+      <style>
+        .about-paragraph {
+          width: 60%;
+          margin: 0 auto;
+        }
+        .about-image img {
+          width: 35%;
+        }
+        @media screen and (max-width: 768px) {
+          .about-paragraph {
+            width: 140%;
+            margin: 0 auto;
+          }
+          .about-image img {
+            width: 100%;
+            height: auto;
+        }
+      }
+      </style>
+
+      <div style="padding: 15px;"></div>
+      
+      <!-- Gradient Line -->
+      <div class="gradient-line"></div>      
+     
+      <section id="developer-stack" style="padding: -15px 0;">
+        <section class="developer-stack">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12">
+              <h1 class="section-title" style="color: #8e43f0; font-family: Raleway-Bold; text-align:center;">
+                <i class="fas fa-laptop-code"></i> Developer Stack
+                <span style="position: absolute; top: 1650px; right: 0; width: 100%;">
+                </span>
+              </h1>
+            </div>
+          </div>
+          <div class="row" style="margin-top: 60px;">
+            <div class="col-md-6" style="text-align: center;">
+              <h3 class="stack-title" style="color: #8e43f0; font-family: Raleway-Bold; font-size: 32px; margin-bottom: 30px;">
+                <i class="fas fa-desktop"></i> Front-end
+              </h3>
+              <div class="skill-graph" style="height: 40px; width: 70%; margin: 0 auto; background-image: linear-gradient(to right, #D8BFD8, #C7A4C9, #B48CBF, #A275B2, #8E43F0); border-radius: 50px; overflow: hidden;">
+                <div class="skill-level" style="height: 40px; width: 85%; background-color: #8e43f0; border-radius: 50px; background-image: linear-gradient(to right, #8e43f0, #00c4cc); background-size: 400% 400%; animation: gradient 4s ease infinite;">
+                    <span class="percent" style="color: #fff; font-size: 24px; font-family: Raleway-Bold; position: relative; top: 50%; transform: translateY(-50%); display: inline-block; margin-left: 10px; z-index: 10;">85%</span>
+                </div>
+              </div>
+              <ul class="skill-list" style="color: #00c4cc; font-family: Raleway-Light; margin-top: 30px; list-style-type: none; font-size: 20px;">
+                <li><i class="fab fa-html5" style="color: #8e43f0;"></i> HTML5</li>
+                <li><i class="fab fa-css3" style="color: #8e43f0;"></i> CSS3</li>
+                <li><i class="fab fa-js" style="color: #8e43f0;"></i> JavaScript</li>
+                <li><i class="fab fa-react" style="color: #8e43f0;"></i> React</li>
+                <li><i class="fab fa-wordpress" style="color: #8e43f0;"></i> WordPress</li>
+                <li><i class="fab fa-elementor" style="color: #8e43f0;"></i> Elementor</li>
+                <li><i class="fas fa-code" style="color: #8e43f0;"></i> Visual Studio Code</li>
+              </ul>
+            </div>
+            <div class="col-md-6" style="text-align: center;">
+              <h3 class="stack-title" style="color: #8e43f0; font-family: Raleway-Bold; font-size: 32px; margin-bottom: 30px;">
+                <i class="fas fa-server" style="color: #8e43f0;"></i> Back-end
+              </h3>
+              <div class="skill-graph" style="height: 40px; width: 70%; margin: 0 auto; background-image: linear-gradient(to right, #D8BFD8, #C7A4C9, #B48CBF, #A275B2, #8E43F0); border-radius: 50px; overflow: hidden;">
+                <div class="skill-level" style="height: 40px; width: 65%; background-color: #8e43f0; border-radius: 50px; background-image: linear-gradient(to right, #8e43f0, #00c4cc); background-size: 400% 400%; animation: gradient 4s ease infinite;">
+                    <span class="percent" style="color: #fff; font-size: 24px; font-family: Raleway-Bold; position: relative; top: 50%; transform: translateY(-50%); display: inline-block; margin-left: 10px; z-index: 10;">65%</span>
+                </div>
+              </div>
+        <ul class="skill-list" style="color: #00c4cc; font-family: Raleway-Light; margin-top: 30px; list-style-type: none; font-size: 20px;">
+          <li><i class="fab fa-python" style="color: #8e43f0;"></i> Python</li>
+          <li><i class="fab fa-ethereum" style="color: #8e43f0;"></i> Solidity</li>
+          <li><i class="fab fa-node-js" style="color: #8e43f0;"></i> Node.js</li>
+          <li><i class="fas fa-code" style="color: #8e43f0;"></i> Remix</li>
+          <li><i class="fas fa-code-branch" style="color: #8e43f0;"></i> Git</li>
+          <li><i class="fab fa-hackerrank" style="color: #8e43f0;"></i> Hardhat</li>
+          <li><i class="fas fa-globe" style="color: #8e43f0;"></i> Thirdweb</li>
+          <li><i class="fab fa-bootstrap" style="color: #8e43f0;"></i> Bootstrap</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <div class="container">
+    <section class="about">
+      <div class="about-content">
+
+         <!-- Gradient Line -->
+   <div class="gradient-line" style="width: 80%;"></div>
+   
+        <h2 class="about-title" style="text-align: center; font-size: 36px; color: #8e43f0; font-family: Raleway-Bold;">Technical Proficiencies</h2>
+        <div class="title-line"></div>
+        <div class="about-description">
+          <div style="padding: 10px;"></div>
+          <div class="about-paragraph" style="text-align: center;">
+            <p style="max-width: 90%; margin: 0 auto;">I specialize in front-end web design and blockchain development. I have a strong background in smart contracts and API integration. My proficiency extends to producing unique digital art using Procreate, adding a creative touch to my projects.</p>
+          </div>
+          <br>
+          <div class="about-paragraph" style="text-align: center;">
+            <p style="max-width: 90%; margin: 0 auto;">Furthermore, I offer technical writing services, effectively communicating complex technical concepts to broader audiences. With a comprehensive understanding of front-end and back-end technologies, I am adept at developing high-quality projects that align with your business objectives.</p>
+          </div>
+        </div>
+
+        <div style="padding: 15px;"></div>
+
+        <div class="card-container" style="width: 300px; height: 200px; background-color: black; border-radius: 10px; padding: 20px; color: #00c4cc; font-family: Arial, sans-serif; text-align: center; margin: 0 auto;">
+          <hr style="border: none; border-top: 2px solid #00c4cc; margin: 0; margin-bottom: 20px;">
+          <h2 style="margin: auto; font-size: 36px;"><em>Portfolio</em></h2>
+          <a href="https://julianfalexander.dev/projects.html" class="learn-more-button" style="display: block; margin: 20px auto 0; width: 80px; background: linear-gradient(to right, #8e43f0, #00c4cc); background-size: 200% auto; color: white; font-family: Raleway-Regular; font-size: 18px; padding: 10px 10px; border-radius: 20px; text-decoration: none; animation: gradient-animation 3s infinite;">VIEW</a>
+        </div>
+      </div>
+    </section>
+  </div>
+  <style>
+    .about-paragraph {
+      width: 60%;
+      margin: 0 auto;
+    }
+    .about-image img {
+      width: 35%;
+    }
+    @media screen and (max-width: 768px) {
+      .about-paragraph {
+        width: 140%;
+        margin: 0 auto;
+        margin-left: -20%;
+      }
+      .about-image img {
+        width: 100%;
+        height: auto;
+    }
+  }
+  </style>
+
+  <div class="container">
+    <section id="blog">
+      <!-- Gradient Line -->
+      <div class="gradient-line"></div> 
+  
+        <h2 style="font-size: 34px; color: #8e43f0; font-family: Raleway-Bold; text-align: center; margin-bottom: 40px;">
+          <i class="fas fa-pencil-alt" style="color: #8e43f0;"></i> Latest Blogs
+          <span style="position: absolute; top: 2720px; right: 0; width: 100%;">
+          </span>
+        </h2>
+        <div class="card-container" style="display: flex; flex-wrap: wrap; justify-content: center;">
+          <div class="blog-card" style="background-color: #000000; color: #00c4cc; padding: 100px 30px; margin-bottom: 30px; position: relative; display: flex; flex-direction: column; justify-content: center; align-items: center; width: 600px; margin: auto;">
+            <div class="card-border" style="position: absolute; top: 0; left: 0; right: 0; height: 3px; background: linear-gradient(to right, #8e43f0, #00c4cc);"></div>
+            <h3 class="card-title" style="font-size: 34px; font-family: Raleway-Bold; margin-top: 20px; margin-bottom: 10px; color: #00c4cc; text-transform: uppercase; text-align: center; font-style: italic;">Welcome to <br>Web3</h3>
+            <p class="card-description" style="font-size: 23px; font-family: Raleway-Light; color: white; margin-top: 10px; text-align: center;">Dropping June 23rd</p>
+            <div style="position: absolute; bottom: 20px; left: 50%; transform: translateX(-50%); text-align: center;">
+              <a href="https://substack.com/@julianfalexander?utm_source=user-menu" class="learn-more-button" style="display: inline-block; background: linear-gradient(to right, #8e43f0, #00c4cc); background-size: 200% auto; color: white; font-family: Raleway-Regular; font-size: 18px; padding: 10px 20px; border-radius: 20px; text-decoration: none; animation: gradient-animation 3s infinite;">LEARN MORE</a>
+            </div>
+          </div>
+          <div class="blog-card" style="background-color: #000000; color: #00c4cc; padding: 100px 30px; margin-bottom: 30px; position: relative; display: flex; flex-direction: column; justify-content: center; align-items: center; width: 600px; margin: auto;">
+            <div class="card-border" style="position: absolute; top: 0; left: 0; right: 0; height: 3px; background: linear-gradient(to right, #8e43f0, #00c4cc);"></div>
+            <h3 class="card-title" style="font-size: 34px; font-family: Raleway-Bold; margin-top: 20px; margin-bottom: 10px; color: #00c4cc; text-transform: uppercase; text-align: center; font-style: italic;">A.I. Or <br>Bust</h3>
+            <p class="card-description" style="font-size: 23px; font-family: Raleway-Light; color: white; margin-top: 10px; text-align: center;">COMING SOON</p>
+            <div style="position: absolute; bottom: 20px; left: 50%; transform: translateX(-50%); text-align: center;">
+              <a href="https://substack.com/@julianfalexander?utm_source=user-menu" class="learn-more-button" style="display: inline-block; background: linear-gradient(to right, #8e43f0, #00c4cc); background-size: 200% auto; color: white; font-family: Raleway-Regular; font-size: 18px; padding: 10px 20px; border-radius: 20px; text-decoration: none; animation: gradient-animation 3s infinite;">LEARN MORE</a>
+            </div>
+          </div>
+    </section>    
+  <style>
+    @media (max-width: 767px) {
+      .blog-card {
+        width: 100%;
+      }
+    }
+    .card-container {
+      max-width: 100%;
+    }
+  </style>  
+
+  <style>
+    @keyframes gradient-animation {
+      0% {
+        background-position: 0% 50%;
+      }
+      50% {
+        background-position: 100% 50%;
+      }
+      100% {
+        background-position: 0% 50%;
+      }
+    }
+  </style>
+  </div>
+
+  <div style="padding: 15px;"></div>
+
+  <!-- Gradient Line -->
+  <div class="gradient-line"></div> 
+  
+  <div class="container">
+    <section class="native-token-sign-up" style="background-color: black; padding: 20px; border-radius: 10px;">
+      <div style="background-color: black; border-radius: 40px; border: 1px solid transparent; background-image: linear-gradient(to right, #00c4cc, #8e43f0); padding: 20px;">
+        <div style="background-color: black; border-radius: 10px; padding: 20px;">
+          <h1 style="text-align: center; font-size: 34px; margin-bottom: 20px; font-family: Raleway-Bold; color: #00c4cc;">ADIT NFT Marketplace Launching Fall 2023</h1>
+          <p style="text-align: center; font-size: 19; margin-bottom: 20px; font-family: Raleway-Regular; max-width: 530px; margin: 0 auto; color: white;">
+            Sign your life away by joining the whitelist for my NFT Marketplace! Just kidding, but early whitelist members do receive exclusive first access to our launch week NFT drops and giveaways. Connect your wallet and enter your email below to join. The community begins with us.
+          </p>
+          <form id="whitelist-form" action="FORMSPREE-LINK-GOES-HERE" method="POST" style="margin: auto; max-width: 500px;">
+            <div style="text-align: center; margin-bottom: 20px;">
+              <div style="padding: 10px;"></div>
+              <button type="button" onclick="connectWallet()" style="background-color: #4CAF50; font-size: 20px; color: white; padding: 14px 20px; border: none; border-radius: 4px; cursor: pointer; font-family: Raleway-Regular;">
+                <i class="fab fa-ethereum" style="margin-right: 5px;"></i> Connect Wallet
+              </button>
+            </div>
+            <label for="email" style="display: block; font-size: 18px; margin-bottom: 10px; font-family: Raleway-Regular; color: white;">Enter your email:</label>
+            <input type="email" id="email" name="email" style="display: block; margin-bottom: 20px; width: 100%; padding: 10px; border: 1px solid #ccc; border-radius: 4px; font-family: Raleway-Regular;" required>
+            <label for="wallet-address" style="display: block; font-size: 18px; margin-bottom: 10px; font-family: Raleway-Regular; color: white;">Your wallet address:</label>
+            <input type="text" id="wallet-address" name="wallet-address" style="display: block; margin-bottom: 20px; width: 100%; padding: 10px; border: 1px solid #ccc; border-radius: 4px; font-family: Raleway-Regular;" required>
+            <button type="submit" style="display: block; font-size: 20px; margin: auto; background-color: #4CAF50; color: white; padding: 14px 20px; border: none; border-radius: 4px; cursor: pointer; font-family: Raleway-Bold;">Submit</button>
+          </form>  
+          </div>
+        </div>
+      </section>
+    </div>
+      <script>
+        document.getElementById('whitelist-form').addEventListener('submit', function(event) {
+          // Get the form inputs
+          var emailInput = document.getElementById('email');
+          var walletAddressInput = document.getElementById('wallet-address');
+        
+          // Check if any of the fields are empty
+          if (emailInput.value === '' || walletAddressInput.value === '') {
+            // Prevent form submission
+            event.preventDefault();
+        
+            // Show error message
+            alert('Please make sure all fields are complete.');
+          } else {
+            // Reset the form fields after a brief delay
+            setTimeout(function() {
+              document.getElementById('whitelist-form').reset();
+            }, 100); // 100 milliseconds delay
+          }
+        });
+        </script>
+        
+      <script>
+        async function connectWallet() {
+          if (window.ethereum) {
+            try {
+              const accounts = await window.ethereum.request({ method: "eth_requestAccounts" });
+        document.getElementById("wallet-address").value = accounts[0];
+      } catch (err) {
+        console.error(err);
+      }
+    } else {
+      alert("You need to install Metamask to connect to a wallet!");
+    }
+  }
+</script>
+
+    <div style="padding: 15px;"></div>
+    
+    <footer>
+      <div class="social-icons">
+        <a href="https://twitter.com/jujufalexander"><i class="fab fa-twitter"></i><span>Twitter</span></a>
+        <a href="https://www.linkedin.com/in/julian-alexander-421b98279/"><i class="fab fa-linkedin"></i><span>LinkedIn</span></a>
+        <a href="https://github.com/jujufalexander"><i class="fab fa-github"></i><span>GitHub</span></a>
+      </div>
+      <div class="footer-info">
+        <p>&copy; 2023 Julian Alexander. All rights reserved.</p>
+      </div>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
+
+ 
