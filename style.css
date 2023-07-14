@@ -1,0 +1,294 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;700&display=swap');
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #8e43f0;
+  position: relative;
+  height: 55px;
+  justify-content: flex-end;
+}
+header img {
+    margin-top: 0rem;
+  }  
+.logo-wrapper {
+  display: flex;
+  align-items: center;
+}
+.logo-wrapper img {
+  height: 50px;
+}
+body {
+  background-color: #1a1a1a;
+  box-shadow: 0 0 10px #333;
+  font-family: 'Raleway Light', sans-serif;
+}
+main {
+  background-color: #1a1a1a;
+  box-shadow: 0 0 10px #333;
+}
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Raleway Light', sans-serif;
+}
+p {
+  font-family: 'Raleway Light', sans-serif;
+}
+.about-content {
+  margin-bottom: 50px;
+  padding: 50px;
+}
+.developer-stack {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.technical-proficiencies {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.native-token-sign-up {
+  margin-top: 50px;
+}
+  nav {
+    margin-left: auto;
+    line-height: 80px;
+    width: 100%;
+    justify-content: flex-end;
+  }   
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: flex-end;
+}
+  nav li {
+    margin-right: 1rem;
+  } 
+  nav li:last-child {
+    margin-right: 0;
+  }
+  nav a {
+    color: white;
+    text-decoration: none;
+  }
+  main {
+    padding: 2rem;
+  }
+  .collection {
+    margin-bottom: 3rem;
+  }
+  .collection h2 {
+    color: #8e43f0;
+    margin-bottom: 1rem;
+  }
+  .pagination {
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+    page-break-after: always;
+  }
+  .pagination a {
+    color: white;
+    text-decoration: none;
+    border: 1px solid white;
+    padding: 0.5rem 1rem;
+    margin-right: 0.5rem;
+  }
+  .pagination a:hover {
+    background-color: white;
+    color: #8e43f0;
+  }
+  footer {
+    background-color: #8e43f0;
+    color: white;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  footer ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  footer li {
+    margin-right: 1rem;
+  }
+  footer li:last-child {
+    margin-right: 0;
+  }
+  footer a {
+    color: white;
+    text-decoration: none;
+  }
+  .social-icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+  }
+  .social-icons a {
+    font-family: 'Raleway Light', sans-serif;
+    font-weight: 300;
+    margin-right: 1rem;
+  }
+  .social-icons a i {
+    font-size: 1.5rem;
+    margin-right: 0.5rem;
+    color: white;
+    font-family: 'Font Awesome 5 Brands';
+    font-weight: 900;
+    font-style: normal;
+} 
+  .image-box {
+    margin: 5px;
+    border-radius: 10px;
+    overflow: hidden;
+    padding: 10px;
+  }
+  .image-box img {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 10px;
+  }
+  .collection-header {
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+  @font-face {
+    font-family: 'Raleway Light';
+    src: url('fonts/raleway-light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+  }
+  h1 {
+    font-family: 'Raleway Light', sans-serif;
+    font-size: 2rem;
+    font-weight: 700;
+    margin: 0;
+  }
+  nav ul {
+    font-family: 'Raleway Light', sans-serif;
+    font-weight: 300;
+  }
+  h2, p {
+    font-family: 'Raleway Light', sans-serif;
+  }
+  footer ul li a {
+    font-family: 'Raleway Light', sans-serif;
+  }
+  .social-icons a::before {
+    content: "";
+    display: inline-block;
+    margin-right: 0.5rem;
+    font-size: 1.5rem;
+    color: white;
+  }
+  .social-icons a[href^="https://twitter.com/"] i::before {
+    content: "";
+    font-family: "Font Awesome 5 Brands";
+    font-weight: 900;
+    font-style: normal;
+    font-size: 1.5rem;
+    margin-right: 0.5rem;
+    color: white;
+}
+.social-icons a[href^="https://www.linkedin.com/"] i::before {
+    content: "";
+    font-family: "Font Awesome 5 Brands";
+    font-weight: 900;
+    font-style: normal;
+    font-size: 1.5rem;
+    margin-right: 0.5rem;
+    color: white;
+}
+.social-icons a[href^="https://github.com/"] i::before {
+    content: "";
+    font-family: "Font Awesome 5 Brands";
+    font-weight: 900;
+    font-style: normal;
+    font-size: 1.5rem;
+    margin-right: 0.5rem;
+    color: white;
+}
+img.logo {
+    width: 5.15%;
+    height: auto;
+  }
+  .logo {
+    margin-top: -3.35rem;
+    margin-left: 15.5rem;
+    width: 5px;
+    height: 5px;
+  }
+  .title-wrapper {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding-left: 30px;
+  }
+  .title-wrapper h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 32px;
+    color: #fff;
+    margin: 0;
+  }
+  .page-title {
+    font-family: 'Raleway Light', sans-serif;
+    margin-top: 34px;
+    margin-bottom: 20px;
+    padding-left: 30px;
+    color: white;
+  }
+.about-content {
+  color: white;
+}
+.developer-stack {
+  color: white;
+}
+.back-end {
+  color: white;
+}
+.other-skills {
+  color: white;
+}
+.native-token-sign-up {
+  color: white;
+}
+.banner {
+  width: 100%;
+  overflow: hidden;
+  margin: 0;
+}
+.banner img {
+  width: 100%;
+  height: 100%;
+  display: block;
+  object-fit: cover;
+}
+.gradient-line {
+  height: 1px;
+  margin: 30px auto;
+  width: 95%;
+  background: linear-gradient(to right, #8e43f0, #00c4cc);
+  border-radius: 2px;
+  background-size: 400% 400%;
+  animation: gradient 4s ease infinite;
+}
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+

@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <title>Coder</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-jzIl5vGPy5KpYYa1/t7q9DZWmPn7aA3l6nhZKq3OY6Pnz8WzR0gAVyU6QDWU87vJNLG1aZEsKdZAm1YfzC8o/A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://kit.fontawesome.com/cef6b4f400.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@alch/alchemy-web3@2.2.1/build/dist/web3.min.js"></script>
+  </head>
+  <body>
+    <header style="display: flex;">
+      <div class="title-wrapper"></div>
+      <nav>
+        <ul style="padding-right: 10px;">
+          <li><a href="index.html">Coder</a></li>
+          <li><a href="writing.html">Writer</a></li>
+          <li><a href="projects.html">Projects</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+    <style>
+          @media screen and (max-width: 768px) {
+        nav {
+          text-align: center;
+          padding-right: 50px;
+        }
+
+        .about-paragraph p {
+          width: 100%;
+        }
+
+        h2 {
+          text-align: left;
+        }
+      }
+    
+      @media screen and (min-width: 769px) {
+        .about-paragraph p {
+          width: 55%;
+          margin: 0 auto;
+        }
+      }
+    
+      @keyframes pulse {
+        0% {
+          transform: translateX(-50%) scaleY(1);
+        }
+        50% {
+          transform: translateX(-50%) scaleY(1.5);
+        }
+        100% {
+          transform: translateX(-50%) scaleY(1);
+        }
+      }
+    
+      a {
+        transition: color 0.3s ease;
+      }
+    
+      a:hover {
+        color: #00c4cc;
+      }
+    </style>    
+    
+<div style="padding: 15px;"></div>
+<div class="container">
+  <h1 class="about-title" style="text-align: center; font-size: 48px; color: #8e43f0; font-family: Raleway-Bold;">Notable Projects</h1> 
+  <!-- Gradient Line -->
+  <div class="gradient-line"></div>
+  <div style="padding: 10px;"></div>
+  <!-- Project 1 -->
+  <h2 style="text-align: center; font-size: 36px; color: #8e43f0; font-family: Raleway-Regular;"><span style="color: #00c4cc;">01.</span> Ella Virtual Blockchain Assistant</h2>
+  <div class="about-description">
+<div style="padding: 10px;"></div>
+<div class="about-paragraph" style="text-align: left;">
+  <p style=" margin: 0 auto; color: white;">The "Ella: Virtual Assistant for Blockchain Developers" project was developed using Python. The project incorporates Solidity as the language for the chatbot's smart contract generation tool, enabling developers to launch and customize prebuilt smart contracts directly from Visual Studio Code.</p>
+    <br>
+  <p style=" margin: 0 auto; color: white;">The project utilizes the Langchain library to ingest and index data, enabling the chatbot to interact with pre-defined content from loaded text documents and directories. This integration enhances the chatbot's ability to provide tailored and context-aware responses to users in the blockchain development domain.</p>
+    <br>
+  <p style=" margin: 0 auto; color: white;">Additionally, functions have been crafted to deliver customized cryptocurrency reports based on user preferences. These functions utilize external APIs to retrieve real-time data on cryptocurrencies. Users can specify their projects of choice, and the chatbot generates personalized reports with information such as current prices, percentage changes, and market capitalization.</p>
+</div>   
+<div style="padding: 5px;"></div>
+<div style="text-align: center;">
+  <div style="display: flex; justify-content: center; align-items: center;">
+    <img src="images/temp-4.png" alt="Ella Virtual Assistant" style="width: 100%; max-width: 700px; height: auto; border-radius: 10px; margin-top: 20px; margin-left: auto; margin-right: auto;">
+  </div>
+  <div style="padding: 10px;"></div>
+  <div style="margin-top: 20px;">
+    <a href="https://github.com/jujufalexander/ella_virtual_blockchain_assistant" class="learn-more-button" style="display: inline-block; background: linear-gradient(to right, #8e43f0, #00c4cc); background-size: 200% auto; color: white; font-family: Raleway-Regular; font-size: 18px; padding: 10px 20px; border-radius: 20px; text-decoration: none; animation: gradient-animation 3s infinite;">LEARN MORE</a>
+  
+  <!-- Gradient Line -->
+  <div class="gradient-line"></div>
+  <div style="padding: 10px;"></div>
+  <!-- Project 2 -->
+  <h2 style="text-align: center; font-size: 36px; color: #8e43f0; font-family: Raleway-Regular;"><span style="color: #00c4cc;">02.</span> Personal Portfolio Site</h2>
+  <div class="about-description">
+<div style="padding: 10px;"></div>
+<div class="about-paragraph" style="text-align: left;">
+  <p style=" margin: 0 auto; color: white;">The site is developed using HTML, CSS, and JavaScript. It incorporates the Bootstrap framework for responsive design and utilizes Font Awesome for icon integration.</p>
+</div>
+<div style="padding: 5px;"></div>
+<div style="text-align: center;">
+  <div style="display: flex; justify-content: center; align-items: center;">
+    <img src="images/temp-5.png" alt="Personal Developer Portfolio" style="width: 100%; max-width: 700px; height: auto; border-radius: 10px; margin-top: 20px; margin-left: auto; margin-right: auto;">
+  </div>
+  <div style="padding: 10px;"></div>
+  <div style="margin-top: 20px;">
+    <a href="https://github.com/jujufalexander/juju-portfolio-01" class="learn-more-button" style="display: inline-block; background: linear-gradient(to right, #8e43f0, #00c4cc); background-size: 200% auto; color: white; font-family: Raleway-Regular; font-size: 18px; padding: 10px 20px; border-radius: 20px; text-decoration: none; animation: gradient-animation 3s infinite;">LEARN MORE</a>
+
+  <!-- Gradient Line -->
+  <div class="gradient-line"></div>
+  <div style="padding: 10px;"></div>
+  <!-- Project 3 -->
+  <h2 style="text-align: center; font-size: 36px; color: #8e43f0; font-family: Raleway-Regular;"><span style="color: #00c4cc;">03.</span> Polka Ark</h2>
+  <div class="about-description">
+<div style="padding: 10px;"></div>
+<div class="about-paragraph" style="text-align: left;">
+  <p style=" margin: 0 auto; color: white;">Developed the project's site using WordPress and utilized Elementor for the front-end design. Each digital art piece was hand-created using Procreate. The smart contract was structured and launched to the Ethereum blockchain with Thirdweb. Project files are stored via IPFS.</p>
+</div>
+<div style="padding: 5px;"></div>
+<div style="text-align: center;">
+  <div style="display: flex; justify-content: center; align-items: center;">
+    <img src="images/project-3.jpg" alt="Polka Ark" style="width: 100%; max-width: 700px; height: auto; border-radius: 10px; margin-top: 20px; margin-left: auto; margin-right: auto;">
+  </div>
+  <div style="padding: 10px;"></div>
+  <div style="margin-top: 20px;">
+    <a href="https://polkaark.com/" class="learn-more-button" style="display: inline-block; background: linear-gradient(to right, #8e43f0, #00c4cc); background-size: 200% auto; color: white; font-family: Raleway-Regular; font-size: 18px; padding: 10px 20px; border-radius: 20px; text-decoration: none; animation: gradient-animation 3s infinite;">LEARN MORE</a>
+
+  <!-- Gradient Line -->
+  <div class="gradient-line"></div>
+  <div style="padding: 10px;"></div>
+  <!-- Project 4 -->
+  <h2 style="text-align: center; font-size: 36px; color: #8e43f0; font-family: Raleway-Regular;"><span style="color: #00c4cc;">04.</span> NFT Marketplace Sign-Up Form</h2>
+  <div class="about-description">
+<div style="padding: 10px;"></div>
+<div class="about-paragraph" style="text-align: left;">
+  <p style=" margin: 0 auto; color: white;">This project creates a visually appealing sign-up form for an NFT marketplace whitelist. It is built using HTML, CSS, and JavaScript for the frontend, and Solidity (version 0.8.4) for the backend smart contract. The project incorporates validation checks, form submission handling, and integration with the Metamask extension.</p>
+</div>
+<div style="padding: 5px;"></div>
+<div style="text-align: center;">
+  <div style="display: flex; justify-content: center; align-items: center;">
+    <img src="images/project-1.png" alt="Polka Ark" style="width: 100%; max-width: 700px; height: auto; border-radius: 10px; margin-top: 20px; margin-left: auto; margin-right: auto;">
+  </div>
+  <div style="padding: 10px;"></div>
+  <div style="margin-top: 20px;">
+    <a href="https://github.com/jujufalexander/marketplace_whitelist_form" class="learn-more-button" style="display: inline-block; background: linear-gradient(to right, #8e43f0, #00c4cc); background-size: 200% auto; color: white; font-family: Raleway-Regular; font-size: 18px; padding: 10px 20px; border-radius: 20px; text-decoration: none; animation: gradient-animation 3s infinite;">LEARN MORE</a>
+
+
+ </div>
+
+
+ <div style="padding: 15px;"></div>
+
+ <!-- Footer -->
+ <footer>
+   <div class="social-icons">
+     <a href="https://twitter.com/jujufalexander"><i class="fab fa-twitter"></i><span>Twitter</span></a>
+     <a href="https://www.linkedin.com/in/julianfalexander"><i class="fab fa-linkedin"></i><span>LinkedIn</span></a>
+     <a href="https://github.com/jujufalexander"><i class="fab fa-github"></i><span>GitHub</span></a>
+   </div>
+   <div class="footer-info">
+     <p>&copy; 2023 Julian Alexander. All rights reserved.</p>
+   </div>
+ </footer>
+   </body>
+ </html>
+
+  
+
